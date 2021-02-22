@@ -1,4 +1,4 @@
-# Pillow Contact Sheet Project
+# OpenCV/Tesseract Project
 
 This is a project part of the Coursera Python 3 Programming Specialization . This project uses openCV, pytesseract and pillow libraries to take a zip file containing images. The program then takes those images, extracting the text contained by those images using the pytesseract library. We then give the program a word as an input, the program searches through the images to check if any word inside those images is the same as the one given by the user. If the cases checks as true, we crop the faces of the people in the image creating a contact sheet with all the faces. If the case checks out as false, we give the user a print telling that there is no mathc for the word given inside the image.
 
